@@ -1,0 +1,20 @@
+{
+  "name": "MyExtension",
+  "version": "0.0.0",
+  "author": ["Your Name"],
+  "url": "https://www.mediawiki.org/wiki/Extension:MyExtension",
+  "descriptionmsg": "myextension-desc",
+  "license-name": "MIT",
+  "type": "other",
+  "AutoloadClasses": {
+    "SpecialMyExtension": "includes/Special.php"
+  },
+  "SpecialPages": {
+    "MyExtension": {"class":"SpecialMyExtension"}
+  },
+  "MessagesDirs": {
+    "MyExtension": ["i18n"]
+  },
+  "manifest_version": 2
+}
+
