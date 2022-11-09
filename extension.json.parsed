@@ -9,7 +9,7 @@
   "license-name": "MIT",
   "type": "other",
   "AutoloadClasses": {
-    "SpecialMyExtension": "includes/specialPages/Special.php"
+    "SpecialMyExtension": "includes/Special.php"
   },
   "ExtensionMessagesFiles": {
     "MyExtensionAlias": "MyExtension.i18n.alias.php"
@@ -21,9 +21,8 @@
   },
   "MessagesDirs": {
     "MyExtension": [
-      "i18n/special_pages/myextension"
+      "i18n"
     ]
   },
   "manifest_version": 2
 }
-
