@@ -9,19 +9,24 @@
   "license-name": "MIT",
   "type": "other",
   "AutoloadClasses": {
-    "SpecialMyExtension": "includes/specialPages/Special.php"
+    "SpecialMyExtension": "includes/specialPages/Special.php",
+    "SpecialOttrSettings": "includes/specialPages/OttrSettings.php"
   },
   "ExtensionMessagesFiles": {
-    "MyExtensionAlias": "MyExtension.i18n.alias.php"
+    "MyExtensionAlias": "i18n/special_pages/MyExtension.i18n.alias.php",
+    "OttrSettingsAlias": "i18n/special_pages/OttrSettings.i18n.alias.php"
   },
   "SpecialPages": {
-    "MyExtension": {
-      "class": "SpecialMyExtension"
+    "OttrSettings": {
+      "class": "SpecialOttrSettings"
     }
   },
   "MessagesDirs": {
     "MyExtension": [
       "i18n/special_pages/myextension"
+    ],
+    "OttrSettings": [
+      "i18n/special_pages/ottrsettings"
     ]
   },
   "manifest_version": 2

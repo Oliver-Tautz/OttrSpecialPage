@@ -12,7 +12,9 @@ $specialPageAliases = [];
  * @author <your username>
  */
 $specialPageAliases['en'] = [
-	'MyExtension' => [ 'OttrSettings', 'OttrSettings' ],
+	'MyExtension' => [ 'My Extension', 'My Extension' ],
+	'OttrSettings' => [ 'OttrSettings', 'OttrSettings' ],
+
 ];
 
 
